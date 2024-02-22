@@ -1,7 +1,7 @@
-package org.example.Study.S0222;
+package org.example.Study.Feb.S22;
 
 public class TestScore {
     public static void main(String[] args) {
-        
+
     }
 }
