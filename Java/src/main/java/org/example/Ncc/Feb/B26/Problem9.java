@@ -8,6 +8,6 @@ public class Problem9 {
         System.out.println(arr[0]);
         System.out.println(arr[1]);
         System.out.println(str.charAt(6));
-        System.out.println(str.substring(0,4));
+        System.out.println(str.substring(0,3));
     }
 }

@@ -11,22 +11,27 @@ public class DiceReward {
         int res=0;
 
         if ( a==b && a==c){
-
+            res = 10000 + a*1000;
         }
-        else if (a==b || a==c || a==c){
-
+        else if (a==b || b==c || a==c){
+            if(a==b || a==c){
+                res = 1000 + 100*a;
+            }
+            else {
+                res = 1000 + 100*b;
+            }
         }
         else {
-            if(a<b && a<c){
+            if(a>b && a>c){
                 res = a*100;
             }
-            else if(b<a && b<c){
+            else if(b>a && b>c){
                 res = b*100;
             }
-            else if(c<a && c<b){
+            else if(c>a && c>b){
                 res = c*100;
             }
         }
-
+        System.out.println(res);
     }
 }
