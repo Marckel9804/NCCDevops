@@ -1,5 +1,7 @@
 package org.example.Study.Feb.S27;
 
+import org.example.Study.Mar.s03.check18.ShopService;
+
 public class Check6_18 {
     public static void main(String[] args) {
         ShopService obj1 = ShopService.getInstance();
