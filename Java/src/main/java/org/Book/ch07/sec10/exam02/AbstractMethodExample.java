@@ -1,7 +1,5 @@
 package org.Book.ch07.sec10.exam02;
 
-import org.Ncc.Feb.B29.e6.Ca;
-
 public class AbstractMethodExample {
     public static void main(String[] args) {
         Dog dog = new Dog();
