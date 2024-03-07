@@ -11,14 +11,12 @@ public class Television implements RemoteControl{
     }
 
     //turnOff() 추상 메소드 오버라이딩
-
     @Override
     public void turnOff() {
         System.out.println("TV를 끕니다.");
     }
 
     //setVoulume() 추상 메소드 오버라이딩
-
     @Override
     public void setVolume(int volume) {
         if(volume>RemoteControl.MAX_VOLUME) {
