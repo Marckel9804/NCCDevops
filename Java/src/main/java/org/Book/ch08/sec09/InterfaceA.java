@@ -1,4 +1,2 @@
-package org.Book.ch08.sec09;
-
-public class InterfaceA {
+package org.Book.ch08.sec09;public interface InterfaceA {
 }
