@@ -1,4 +1,6 @@
 package org.Book.ch08.sec09;
 
-public class InterfaceA {
+public interface InterfaceA {
+    //추상메소드
+    void methodA();
 }
