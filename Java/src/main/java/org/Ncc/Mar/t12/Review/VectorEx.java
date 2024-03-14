@@ -1,5 +1,7 @@
 package org.Ncc.Mar.t12.Review;
 
+import javax.sql.rowset.JdbcRowSet;
+import java.sql.JDBCType;
 import java.util.Vector;
 
 class Point {
@@ -28,6 +30,7 @@ public class VectorEx {
             Point p = v.get(i); // 벡터의 i 번째 Point 객체 얻어내기
             System.out.println(p); // p.toString()을 이용하여 객체 p 출력
         }
+
     }
 }
 
