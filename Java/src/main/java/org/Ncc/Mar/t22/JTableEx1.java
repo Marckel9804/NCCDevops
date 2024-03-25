@@ -13,7 +13,6 @@ public class JTableEx1 extends JFrame {
 
 
 
-
     }
 
     public JTable gt() {
