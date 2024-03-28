@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        var score;
+        var num=prompt('너의 점수를 입력하시오',100);
+        num=parseInt(num);
+
+        if(num>=90){
+            score='A';
+        } else if(num>=80){
+            score='B';
+        } else if (num >= 70) {
+            score = 'C';
+        } else {
+            score = 'F';
+        }
+        document.write(score);
+    </script>
+</body>
+</html>
