@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .l{
+            float: left;
+        }
+        .r{
+            float: right;
+        }
+        .head{
+            width:100%;
+            height:30px;
+            margin-bottom:500px;
+            padding: 5px 10px 10px 20px;
+            margin: 0px 0px 10px 0px;
+        }
+        .head a {
+            padding: 5px 10px;
+            color:black;
+            text-decoration: none;
+        }
+        .head a img{
+            border-radius: 25px;
+        }
+        .head a img:hover{
+            box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.3)
+
+        }
+        .head a:hover {
+            text-decoration:underline;
+            padding: 5px 10px;
+        }
+        .bo{
+            margin: 150px 0px;
+            text-align: center;
+        }
+        .bo section{
+            margin: 30px 20px;
+        }
+        .bo section .toolbar{
+            display: flex;
+            justify-content: center; /* 수평 가운데 정렬 */
+            align-items: center; /* 수직 가운데 정렬 */
+            border: 1px solid lightgray;
+            width: 60%;
+            height: 40px;
+            margin-left:20%;
+            margin-right:20%;
+            border-radius: 30px;
+            text-align: center; /* 텍스트 가운데 정렬 */
+
+            justify-content: space-evenly;
+        }
+        .bo section .toolbar:hover{
+         box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.3)
+        }
+        input{
+            border: none;
+        }
+        .bo section a{
+            padding: 10px 20px;
+            background-color: #f7f7f7;
+            border-radius: 10px;
+            text-decoration:none;
+            color: black;
+        }
+        .bo section a:hover{
+            border: 1px solid darkgray;
+        }
+
+        footer{
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: lightgray;
+        }
+        .footer .fa{
+            padding: 10px 0px 20px 0px;
+        }
+        .footer .fa .fl{
+            float:left;
+            padding: 0px 60px 10px 20px;
+        }
+        .footer .fa .fr{
+            float:right;
+            padding: 0px 20px 10px 60px;
+        }
+        .footer .fc{
+            border-collapse: collapse;
+            border-bottom: 1px solid black;
+            padding: 10px;
+            padding-left: 20px;
+        }
+        .footer span{
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        .footer a{
+            color:black;
+            text-decoration: none;
+        }
+        .footer a:hover{
+
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="head">
+            <span class="l"><a href="https://about.google/?fg=1&utm_source=google-KR&utm_medium=referral&utm_campaign=hp-header">Google 정보</a> </span>
+            <span class="l"><a href="https://store.google.com/KR?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=ko-KR">스토어</a></span>
+
+            <span class="r"><a href="https://www.google.co.kr/intl/ko/about/products" ><img src="img_1.png"></a> </span>
+            <span class="r"><a href="https://www.google.co.kr/imghp?hl=ko&authuser=0&ogbl" >이미지</a></span>
+            <span class="r"><a href="https://mail.google.com/mail/?authuser=0&ogbl">gmail</a></span>
+        </div>
+        <div class="bo">
+            <section>
+                <img src="img.png">
+            </section>
+            <section>
+                <div class="toolbar">
+                    <img src="img_2.png" height="35" width="35">
+                    <input>
+                    <img src="img_4.png" height="35" width="120">
+                </div>
+            </section>
+            <section>
+                <a href="google.com">google 검색</a>
+                <a href="https://doodles.google/">I'm Feeling Lucky</a></span>
+
+            </section>
+        </div>
+        <footer>
+            <div class="footer">
+                <div class="fc">
+                    <span>대한민국</span>
+                </div>
+                <div class="fa">
+                    <div class="fl">
+                        <span><a href="https://www.google.co.kr/intl/ko_kr/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">광고</a> </span>
+
+                        <span><a href="https://www.google.co.kr/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">비즈니스</a> </span>
+                        <span><a href="https://google.com/search/howsearchworks/?fg=1">검색의 원리</a> </span>
+                    </div>
+                    <div class="fr">
+                        <span><a href="https://policies.google.com/privacy?hl=ko&fg=1">개인정보처리방침</a> </span>
+                        <span><a href="https://policies.google.com/terms?hl=ko&fg=1">약관</a> </span>
+                        <span><a href="설정">설정</a> </span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
