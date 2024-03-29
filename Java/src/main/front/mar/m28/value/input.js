@@ -1,0 +1,1 @@
+var num = prompt("입력")
