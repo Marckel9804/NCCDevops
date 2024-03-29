@@ -7,20 +7,21 @@
 </head>
 <body>
     <script>
-        var student= {
-            name: 'tom',
-            show: function() {
-                console.log(`${student.name}`);
+        function Student(name, age, loc, major) {
+            this.name;
+            this.age;
+            this.loc;
+            this.major;
+            this.show=function() {
+                console.log(`${name}은 ${age} 살이다.`);
             }
         }
-        var student2 = {
-            name: 'juli',
-            show: function() {
-                console.log(`${student2.name}`);
-            }
-        }
-        student.show();
-        student2.show();
+
+        var stu1 = new Student('jack', 23, 'seoul', 'computer');
+        var stu2 = new Student('juli', 22, 'seoul','computer');
+
+        stu1.show();
+        stu2.show();
     </script>
 </body>
 </html>
