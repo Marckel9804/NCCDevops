@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //5초가 지나면 '5초가 지났다'
+        setTimeout(function(){
+            document.write('5초가 지났다');
+        },5000);
+
+        function msg(message) {
+            document.write(message);
+        }
+        setTimeout(msg, 5000, '5초 지났다');
+        // 콜백(call back) : 다른 함수가 실행을 끝낸 뒤 실행되는 call back
+    </script>
+</body>
+</html>

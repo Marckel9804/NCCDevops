@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var n=1;
+
+        function msg() {
+            console.log(`사이트 들어온지 ${n++} 시간이 됨`);
+            if(n>10) {
+                clearInterval();
+                alert('끝');
+            }
+        }
+
+        var timeOut=setInterval(msg, 1000)
+    </script>
+</body>
+</html>

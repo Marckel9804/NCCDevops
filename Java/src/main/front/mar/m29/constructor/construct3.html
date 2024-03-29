@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function Student(name, age, loc, major) {
+            this.name;
+            this.age;
+            this.loc;
+            this.major;
+            this.show=function() {
+                console.log(`${name}은 ${age} 살이다.`);
+            }
+        }
+
+        var stu1 = new Student('jack', 23, 'seoul', 'computer');
+        var stu2 = new Student('juli', 22, 'seoul','computer');
+
+        stu1.show();
+        stu2.show();
+    </script>
+</body>
+</html>

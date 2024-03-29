@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function order(price, size, color, title){
+            this.price=price;
+            this.size=size;
+            this.color=color;
+            this.title=title;
+        }
+        //공통된 필드
+        order.prototype.market='컬리';
+        order.prototype.delivery='cj';
+
+        order.prototype.result = function() {
+            alert(this.market + ' , ' + this.delivery);
+            alert(this.price + ' , ' + this.size + ' , ' + this.color +
+            ' , ' + this.title);
+        }
+        var p1 = new order('50000', 'M', 'black', 'shirt');
+        var p2 = new order('25000', 'L', 'white', 'shirt')
+        
+        function show(e) {
+            if(e=='one') {
+                p1.result();
+            } else {
+                p2.result();
+            }
+        }
+    </script>
+
+    <div>
+        <button value="one" onclick="show(this.value)">shirt1</button>
+        <button value="two" onclick="show(this.value)">shirt2</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function Score(name, math, eng, his) {
+            this.name = name;
+            this.math = math;
+            this.eng = eng;
+            this.his = his;
+        }
+
+        Score.prototype.result = function() {
+            return ((this.math + this.eng + this.his)/3).toFixed(2);
+        }
+
+        var s1 = new Score('lee', 100, 69, 34);
+        var s3 = new Score('kim', 70, 62, 45);
+        var s2 = new Score('lee', 82, 49, 74);
+
+        document.write(s1.result()+ '<br>');
+        document.write(s2.result()+ '<br>');
+        document.write(s3.result());
+        document.write('ahihih');
+
+    </script>
+
+
+</body>
+</html>

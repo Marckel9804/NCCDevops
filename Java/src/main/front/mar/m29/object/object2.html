@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let stu={
+            gender:'male',
+            job: 'student',
+            age:30
+        }
+        console.log(stu);
+        console.log(stu.gender);
+        console.log(stu['age']);
+
+        stu.loc='seoul';
+        stu['major']='컴공';
+        console.log(stu);
+
+        delete stu.loc;
+        delete stu.gender;
+        console.log(stu);
+    </script>
+</body>
+</html>
